@@ -1,8 +1,8 @@
 name: Nightly build
 
 on:
-  # TODO
-  push:
+  schedule:
+    - cron: "0 0 * * *"
 
 env:
   RELEASE_VERSION: nightly
